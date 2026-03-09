@@ -114,7 +114,7 @@ const NewsVideos: React.FC = () => {
             setSelectedDate(e.target.value);
             setCurrentPage(1); // reset pagination
           }}
-          className="w-full sm:max-w-xs bg-[#0a2e47] text-[#e1f1fd] border-[#0a2e47] rounded-lg px-3 py-2"
+          className="w-full sm:max-w-xs bg-[#0a2e47] text-[#e1f1fd] border-[#0a2e47] rounded-lg px-3 py-2 cursor-pointer"
         />
 
         {selectedDate && (
