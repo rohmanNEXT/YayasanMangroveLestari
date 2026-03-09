@@ -92,7 +92,7 @@ const NewsVideos: React.FC = () => {
             #Video
           </div>
           <div className="pb-8 text-lg sm:text-xl font-medium">
-            Contoh Pelaksanaan Kegiatan YML.NET
+            Contoh Pelaksanaan Kegiatan yml.net 
           </div>
         </div>
 
@@ -115,7 +115,7 @@ const NewsVideos: React.FC = () => {
             setCurrentPage(1); // reset pagination
           }}
           className="w-full sm:max-w-xs bg-[#0a2e47] text-[#e1f1fd] border-[#0a2e47] rounded-lg px-3 py-2 cursor-pointer"
-        />
+        /> 
 
         {selectedDate && (
           <CButton
